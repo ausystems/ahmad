@@ -1,0 +1,8 @@
+{
+  "name": "ahmad-gallery-build",
+  "private": true,
+  "type": "module",
+  "description": "Bundles the modular gallery into a single self-contained HTML file. Run: npm install && node make-single.mjs",
+  "scripts": { "build": "node make-single.mjs" },
+  "devDependencies": { "esbuild": "0.24.0", "three": "0.170.0" }
+}
